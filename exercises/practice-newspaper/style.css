@@ -1,0 +1,46 @@
+.page{
+    background-color: cornsilk;
+    margin: auto 75px
+    
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+h2{
+    text-align: center;
+    text-decoration-line: underline; 
+}
+
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.month{
+    color: darkblue;
+}
+
+.vschool{
+    color: darkgreen;
+    font-style: italic; 
+    font-weight: bold;
+    
+}
+
+.topClassifieds{
+    display: inline-block;
+    border: 3px  solid black;
+    width: 32%;
+    background-color: rgb(236, 236, 213);
+    vertical-align: text-top;
+}
+
+.lowerClassifieds{
+    display: inline-block;
+    border: 3px solid black;
+    width: 49%;
+    background-color: rgb(236, 236, 213);
+    vertical-align: text-top
+}
