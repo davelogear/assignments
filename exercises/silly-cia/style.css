@@ -1,0 +1,33 @@
+h1{
+    color: #00802b;
+    font-family: Georgia;
+    text-align: center;
+}
+
+h2{
+    font-family: Georgia;
+    text-align: center;
+}
+
+p{
+    margin: 25px 5px 25px 5px;
+}
+
+a{
+    text-decoration: none;
+     
+}
+
+.linkText{
+    text-transform:  uppercase;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+img{
+    float: left;
+    height: 300px;
+    width: 300px;
+}

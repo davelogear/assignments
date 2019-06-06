@@ -1,0 +1,33 @@
+.everything{
+    width: 60%; 
+    margin: auto;  
+}
+
+h1{
+    background-color: aquamarine;
+    /*display: inline;*/
+    position: fixed;
+    margin-top: 0;
+    right:0;
+    width: 100%;
+    top: 0;
+    
+    
+}
+
+.topSpace{
+    padding-top: 60px;
+}
+
+p{
+    display: inline;
+    vertical-align: text-top
+    
+}
+
+img{
+    height: 125px;
+    width: 125px;
+    float: left;
+    margin-right: 15px;
+}

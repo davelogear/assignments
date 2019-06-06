@@ -24,10 +24,22 @@ function letsDoThis(str, str2){
         console.log(together)
         return together
    } else {
-       var backwards = str.split("").reverse().join().slice(4, 15)
+       var backwards = str.split("").reverse().join().slice(4, 15).toLowerCase()
        console.log(backwards)
        return backwards
    }
 }
-letsDoThis("waht! ", "it was not long enough")
+letsDoThis("waht ", "it was not long enough!")
 
+function theRest(str){
+    if(str.match(/g/gi)){
+        var firstG = str.indexOf("g")
+        var secondG = str.lastIndexOf("g")
+        console.log(firstG)
+        console.log(secondG)
+    } else {
+        var lastHalf = str.substr(0, (Math.floor(str.length / 2)))
+        console.log(lastHalf)
+    }
+}
+theRest("wag tag")

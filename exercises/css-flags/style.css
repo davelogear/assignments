@@ -1,0 +1,282 @@
+#france{
+    position: relative;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    background-color: white;
+}
+
+.france_blue{
+    position: absolute;
+    border: 0;
+    background-color: blue;
+    height: 250px;
+    width: 100px;
+    left: 0;
+    
+}
+
+.france_red{
+    position: absolute;
+    border: 0;
+    background-color: red;
+    height: 250px;
+    width: 100px;
+    right: 0;
+}
+
+#germany{
+    position: relative;
+    border: 1px solid black;
+    width: 300px;
+    height: 252px;
+    margin: 10px;
+}
+
+.germany_black{
+    height: 84px;
+    width: 300px;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}
+
+.germany_red{
+    height: 84px;
+    width: 300px;
+    background-color: red;
+    top: 84px;
+    position: absolute;
+}
+.germany_yellow{
+    height: 84px;
+    width: 300px;
+    background-color: yellow;
+    bottom: 0;
+    position: absolute;
+}
+
+#madagascar{
+    height: 250px;
+    width: 300px;
+    border: 1px solid black;
+    position: relative; 
+    margin: 10px;
+}
+
+.madagascar_red{
+    height: 125px;
+    width: 190px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.madagascar_green{
+    height: 125px;
+    width: 190px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#switzerland{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: relative;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.switzerland_up{
+    height: 200px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    right: 125px;
+}
+
+.switzerland_across{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    top: 125px;
+    right: 50px;
+}
+
+#sweden{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(0, 81, 255);
+    position: relative;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.sweden_up{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(220, 235, 18);
+    top: 100px;
+    position: absolute;
+}
+
+.sweden_across{
+    height: 250px;
+    width: 50px;
+    background-color: rgb(220, 235, 18);
+    left: 75px;
+    position: absolute;
+}
+
+#gambia{
+    height: 252px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.gambia_red{
+    height: 84px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 0
+}
+
+.gambia_blue{
+    height: 74px;
+    width: 300px;
+    background-color: blue;
+    position: absolute;
+    top: 89px;
+}
+
+.gambia_green{
+    height: 84px;
+    width: 300px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+}
+
+#tonga{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(201, 36, 36);
+    position: relative;
+    margin: 10px
+}
+
+.tonga_white{
+    height: 125px;
+    width: 130px;
+    background-color: white;
+    position: absolute;
+    top: 0
+}
+
+.tonga_up{
+    height: 80px;
+    width: 25px;
+    position: absolute; 
+    background-color: rgb(201, 36, 36);
+    left: 50px;
+    top: 22.5px;
+}
+
+.tonga_across{
+    width: 80px;
+    height: 25px;
+    top: 50px;
+    left: 25px;
+    background-color: rgb(201, 36, 36);
+    position: absolute;
+}
+
+#japan{
+    height: 250px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    position: relative;
+    background-color: white;
+}
+
+.japan_dot{
+    height: 125px;
+    width: 125px;
+    top: 62.5px;
+    left: 77.5px;
+    position: absolute;
+    background-color: firebrick;
+    border-radius: 50%;
+}
+
+#greece{
+    width: 500px;
+    height: 333px;
+    margin: 10px;
+    background-color: rgb(49, 101, 179);
+    position: relative;
+}
+
+.greece_cross_up{
+    height: 185px;
+    width: 37px;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 74px;
+}
+
+.greece_cross_across{
+    height: 37px;
+    width: 185px;
+    position: absolute;
+    background-color: white;
+    top: 74px;
+    left: 0;
+}
+
+.greece_top_line1{
+    height: 37px;
+    width: 315px;
+    position: absolute;
+    background-color: white;
+    top: 37px;
+    right: 0;
+}
+
+.greece_line2{
+    height: 37px;
+    width: 315px;
+    position: absolute;
+    background-color: white;
+    top: 111px;
+    right: 0;
+}
+
+.greece_line3{
+    height: 37px;
+    width: 500px;
+    position: absolute;
+    background-color: white;
+    bottom: 111px;
+}
+
+.greece_line4{
+    height: 37px;
+    width: 500px;
+    position: absolute;
+    background-color: white;
+    bottom: 37px;
+}

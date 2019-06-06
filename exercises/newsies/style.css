@@ -7,17 +7,17 @@
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
 }
-
+ /* calling the h2 tag to style it */
 h2{
     text-align: center;
     text-decoration-line: underline; 
 }
-
+/* callimg the p tag to style it*/
 p{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/* calling the class month */
 .month{
     color: darkblue;
 }
