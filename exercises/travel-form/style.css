@@ -1,0 +1,15 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8a2Ae4zVuJsG60Qo5GVIV3Wu_bI50x4MDG1gq8bU9m6ucxHt4);
+    background-color: rgb(130, 130, 131);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#all{
+    align-content: center;
+    padding-top: 175px;
+    
+    
+}

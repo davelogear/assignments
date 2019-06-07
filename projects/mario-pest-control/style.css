@@ -1,0 +1,102 @@
+body{
+    background-color: #2696ca;
+}
+
+/* //#all{
+    display: flex;
+    width: 600px;
+    //align-content: center;
+    //justify-content: center;
+    //align-items: center;
+    //height: 200px;
+} */
+
+#headder{
+    background-color: #d61212;
+    padding: 90px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    color: white
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+
+#goombas{
+    background-color: #d3d327;
+    border: 1px solid black;
+}
+
+#goombasInput{
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+#goombasCost{
+    display: flex;
+}
+
+#bobOmb{
+    background-color: rgb(20, 148, 20);
+    border: 1px solid black;
+}
+
+#bobOmbInput{
+    /* display: flex;
+    justify-content: flex-end; */
+    margin-left: 195px;
+    margin-top: 60px;
+}
+
+#cheepCheep{
+    background-color: #834104;
+    border: 1px solid black;
+}
+
+#cheepCheepInput{
+    /* display: flex;
+    justify-content: flex-end; */
+    margin-left: 179px;
+    margin-top: 60px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+button{
+    background-color: #d6c912;
+}
+
+#total{
+    background-color: #2696ca;
+    border: 1px solid black;
+    padding-bottom: 5px;
+    padding-top: 3px;
+} 
+
+h3{
+    display: inline;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    height: 100px;
+    width: 300px;
+    background-image: url("http://1.bp.blogspot.com/-7m9yHna1VkM/VHM5vueL3wI/AAAAAAAAAIc/affOptHXNHc/s1600/super_mario_bros_hd_by_jimmarn-d4qb7i2.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
