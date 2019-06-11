@@ -1,0 +1,9 @@
+nav{
+    background-color: #04080f;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: #dae3e5
+}

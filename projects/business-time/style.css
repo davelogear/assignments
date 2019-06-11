@@ -1,0 +1,213 @@
+*{
+    margin: 0
+}
+header{
+    background-image: url(https://images.unsplash.com/photo-1559803078-42bf309785f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-color:#a1c6ea;
+    margin-bottom: 40px;
+}
+
+nav{
+    background-color: #04080f;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: #dae3e5
+}
+
+#homePageName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#box1{
+    background-color: #bbd1ea;
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+}
+
+#box1 > div{
+    background-size: contain;
+    width: 25%;
+    height: 130px;
+    background-image: url("https://images.unsplash.com/photo-1556982042-3237ae05e22b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+
+@font-face{
+    font-family: panda;
+    src: url(killthepanda.ttf)
+}
+
+h1{
+    font-family: panda;
+}
+
+/* #p1Img{
+    height: 200px;
+    float: left;
+    border: 5px solid #dae3e5;
+    margin-right: 10px; 
+}*/
+
+#box2{
+    background-color: #a1c6ea;
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+    min-height: 125px;
+}
+
+#box2 > div{
+    background-size: contain;
+    width: 25%;
+    height: 130px;
+    background-image: url("https://images.unsplash.com/photo-1555448248-2571daf6344b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+    background-repeat: no-repeat;
+    float: right;
+    margin-left: 10px;
+    /* overflow: auto; */
+}
+
+p{
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+/* #p2Img{
+    height: 200px;
+    border: 5px solid #dae3e5;
+    float: right;
+    margin-left: 10px 
+}*/
+
+#box3{
+    background-color: #507DBC;
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+}
+
+#box3 > div{
+    background-size: contain;
+    width: 25%;
+    height: 130px;
+    background-image: url("https://images.unsplash.com/photo-1556122594-f6855272c22b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+
+/* #p3Img{
+    height: 200px;
+    border: 5px solid #dae3e5;
+    float: left;
+    margin-right: 10px; 
+}*/
+
+footer{
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    background-color: #04080f;
+    justify-content: space-around;
+    
+}
+
+h2{
+    font-size: 10px;
+    color: #dae3e5
+}
+
+@media only screen and (min-width: 700px){
+
+    #page{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 25px;
+        margin: 0 15px;
+        
+    }
+
+     /* #p1Img{
+        float: none;
+        margin-right: 0;
+        height: 250px;
+    }
+
+    #p2Img{
+        float: none;
+        height: 250px;
+        margin-left: 0;
+    }
+
+    #p3Img{
+        float: none;
+        height: 250px;
+    } */
+
+    #box1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    #box1 > div {
+        align-content: center;
+        width: 50%;
+        height: 170px; 
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #box2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        max-height: 560px;
+    }
+
+    #box2 > div {
+        align-content: center;
+        width: 50%;
+        height: 170px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-height: 510px
+    }
+
+    #box3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    #box3 > div{
+        margin-top: 10px;
+        margin-right: 0px;
+        width: 50%;
+        height: 170px;
+        margin-bottom: 10px
+    }
+
+    p{ 
+       padding-left: 20px; 
+       padding-right: 20px;
+       padding-bottom: 20px;
+       text-align: center
+    } 
+}
+ 
+@media only screen and (min-width: 100px)
