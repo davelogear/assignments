@@ -33,7 +33,12 @@ a{
     padding-bottom: 5px;
 }
 
-#box1 > div{
+#box1, #box2, #box3 {
+    overflow: hidden;
+    padding: 10px;
+}
+
+/* #box1 > div{
     background-size: contain;
     width: 25%;
     height: 130px;
@@ -41,6 +46,21 @@ a{
     background-repeat: no-repeat;
     float: left;
     margin-right: 10px;
+} */
+
+#page img {
+    height: 100%;
+    max-height: 200px;
+}
+
+#box1 > img, #box3 > img {
+    float: left;
+    margin-right: 10px;
+}
+
+#box2 > img {
+    float: right;
+    margin-left: 10px;
 }
 
 @font-face{
@@ -62,11 +82,10 @@ h1{
 #box2{
     background-color: #a1c6ea;
     margin-bottom: 40px;
-    padding-bottom: 5px;
     min-height: 125px;
 }
 
-#box2 > div{
+/* #box2 > div{
     background-size: contain;
     width: 25%;
     height: 130px;
@@ -74,8 +93,8 @@ h1{
     background-repeat: no-repeat;
     float: right;
     margin-left: 10px;
-    /* overflow: auto; */
-}
+    overflow: auto;
+} */
 
 p{
     font-size: 20px;
@@ -92,10 +111,9 @@ p{
 #box3{
     background-color: #507DBC;
     margin-bottom: 40px;
-    padding-bottom: 5px;
 }
 
-#box3 > div{
+/* #box3 > div{
     background-size: contain;
     width: 25%;
     height: 130px;
@@ -103,7 +121,7 @@ p{
     background-repeat: no-repeat;
     float: left;
     margin-right: 10px;
-}
+} */
 
 /* #p3Img{
     height: 200px;
