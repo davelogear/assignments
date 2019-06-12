@@ -1,3 +1,7 @@
+*{
+    margin: 0
+}
+
 nav{
     background-color: #04080f;
     display: flex;
@@ -10,4 +14,22 @@ a{
 
 h2{
     text-decoration: underline
+}
+
+span{
+    color: rgb(158, 96, 238);
+    font-style: italic
+}
+
+footer{
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    background-color: #04080f;
+    justify-content: space-around;
+}
+
+h2{
+    font-size: 10px;
+    color: #dae3e5
 }
