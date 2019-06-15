@@ -1,0 +1,40 @@
+
+.boxs{
+    width: 400px;
+    height: 400px;
+}
+
+#box1{
+    background-color: rgb(0, 174, 255);
+    transition-property: hight, width, background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#box2{
+    background-color: rgb(233, 68, 68);
+    transition-property: background-color , border-radius;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+#box3{
+    background-color: rgb(60, 179, 60);
+    transition-property: background-color, margin
+}
+
+#box1:hover{
+    width: 200px;
+    height: 600px;
+    background-color: rgb(0, 0, 151);
+}
+
+#box2:hover{
+    background-color: orange;
+    border-radius: 50%
+}
+
+#box3:hover{
+    background-color: yellow;
+    margin: 5px;
+}

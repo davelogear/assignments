@@ -1,0 +1,48 @@
+{
+    "menu": {
+        "appetizers": [
+            {
+                "type": ["bread sticks", "cheese curls"],
+                "ingredients": [[
+                        "wheat", "yeast"
+                    ],[
+                        "cheese"
+                    ]       
+                ],
+                "description": "The bread sticks are beady and the cheese curls are cheesy"
+            }
+        ],
+        "coldSandwiches": [
+            {
+                "type":["BLT", "Ham"],
+                "ingredients":[[
+                        "bacon", "lettuse", "tomato"
+                    ],[
+                        "ham", "cheese"
+                    ]],
+                "description": "The BLT has bacom and the Ham dose not"
+            }
+        ],
+        "hotSandwiches": [
+            {
+                "type": "steak",
+                "ingredients": ["bread", "meat"],
+                "description": "Put the meat in the bread!"
+            }
+        ],
+        "desserts": [
+            {
+                "type": "cheese cake",
+                "ingredients":["jelo", "cream cheese"],
+                "description": "you got to get the cheese cake!"
+            }
+        ],
+        "drinks": [
+            {
+                "type":["lemon aid", "sprit", "pepsie", "coke"],
+                "ingredients": "depends on the drink",
+                "description": "not healthy but they taste good!"
+            }
+        ]
+    }
+}
